@@ -7,10 +7,10 @@ This package contains various utility modules:
 """
 
 # Expose main functions for direct import
-from app.utils.encrypt import decrypt, encrypt
+from app.utils.encrypt import decrypt, encrypt,generate_pc_serial
 from app.utils.logger import get_logger
 
-__all__ = ["get_logger", "encrypt", "decrypt"]
+__all__ = ["get_logger", "encrypt", "decrypt", "generate_pc_serial"]
 
 # Package information
 __version__ = "0.1.0"

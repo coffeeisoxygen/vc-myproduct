@@ -16,3 +16,4 @@ logs/
 tests/
 *.con
 test/
+*.ini
