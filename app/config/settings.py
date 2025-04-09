@@ -16,7 +16,6 @@ DEFAULT_INI_STRUCTURE = {
     },
 }
 
-
 class SettingManager:
     def __init__(self, config_path: Path = DEFAULT_CONFIG_PATH):
         self.config_path = config_path
