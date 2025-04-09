@@ -5,6 +5,7 @@ description = "addon otomax-auto update produk"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "cryptography>=44.0.2",
     "pyodbc>=5.2.0",
     "pytest>=8.3.5",
     "pytest-cov>=6.1.1",
