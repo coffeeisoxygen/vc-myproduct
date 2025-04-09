@@ -13,3 +13,6 @@ logs/
 *.log
 .vscode/
 .github/
+tests/
+*.con
+test/
